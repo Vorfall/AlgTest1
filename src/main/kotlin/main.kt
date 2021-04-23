@@ -12,6 +12,8 @@ fun main(args: Array<String>) {
         res[0]+=input[i];
         res[1]+=input[input.size-1-i]
     }
+
+
     println(res[0])
     println(res[1])
 }
